@@ -4,16 +4,24 @@
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<title></title>
-	<link rel="stylesheet" href="">
+	<link rel="stylesheet" href="style.css">
+	<script src="js/jquery-2.2.0.min.js" type="text/javascript"></script>
+  	<script src="js/script.js" type="text/javascript"></script>
 </head>
 <body>
-	<div>
-		<h1><?php echo $_POST['asso']?></h1>
-		<h1><?php echo $_POST['titre']?></h1>
-		<h1><?php echo $_POST['soustitre']?></h1>
-		<h1><?php echo $_POST['date']?></h1>
-		<h1><?php echo $_POST['date']?></h1>
-		<h1><?php echo $_POST['adresse']?></h1>
+	<div class="aleatoire">
+		<h1 class="justify">
+			<span class="row"><?php echo $_POST['asso']?></span><br>
+			<span class="row"><?php echo $_POST['titre']?></span><br>
+			<span class="row"><?php echo $_POST['soustitre']?></span><br>
+			<span class="row"><?php echo $_POST['date']?></span><br>
+			<span class="row"><?php echo $_POST['date']?></span><br>
+			<span class="row"><?php echo $_POST['adresse']?></span><br>
+		</h1>
+	</div>
+
+	<div class="fixe">
+
 		<p><?php echo $_POST['presentation']?></p>
 
 		<!-- pour uploder photos -->

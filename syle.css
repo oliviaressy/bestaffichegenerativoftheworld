@@ -1,0 +1,172 @@
+
+
+@font-face {
+    font-family: 'autopia';
+    src: url('web-font/autopia-bold-webfont.eot');
+    src: url('web-font/autopia-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('web-font/autopia-bold-webfont.woff2') format('woff2'),
+         url('web-font/autopia-bold-webfont.woff') format('woff'),
+         url('web-font/autopia-bold-webfont.ttf') format('truetype'),
+         url('web-font/autopia-bold-webfont.svg#autopiabold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'charis';
+    src: url('web-font/charissil-r-webfont.eot');
+    src: url('web-font/charissil-r-webfont.eot?#iefix') format('embedded-opentype'),
+         url('web-font/charissil-r-webfont.woff2') format('woff2'),
+         url('web-font/charissil-r-webfont.woff') format('woff'),
+         url('web-font/charissil-r-webfont.ttf') format('truetype'),
+         url('web-font/charissil-r-webfont.svg#charis_silregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'clearsans';
+    src: url('web-font/clearsans-regular-webfont.eot');
+    src: url('web-font/clearsans-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('web-font/clearsans-regular-webfont.woff2') format('woff2'),
+         url('web-font/clearsans-regular-webfont.woff') format('woff'),
+         url('web-font/clearsans-regular-webfont.ttf') format('truetype'),
+         url('web-font/clearsans-regular-webfont.svg#clear_sansregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'combat';
+    src: url('web-font/combat-webfont.eot');
+    src: url('web-font/combat-webfont.eot?#iefix') format('embedded-opentype'),
+         url('web-font/combat-webfont.woff2') format('woff2'),
+         url('web-font/combat-webfont.woff') format('woff'),
+         url('web-font/combat-webfont.ttf') format('truetype'),
+         url('web-font/combat-webfont.svg#combatregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'eczar';
+    src: url('web-font/eczar-bold-webfont.eot');
+    src: url('web-font/eczar-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('web-font/eczar-bold-webfont.woff2') format('woff2'),
+         url('web-font/eczar-bold-webfont.woff') format('woff'),
+         url('web-font/eczar-bold-webfont.ttf') format('truetype'),
+         url('web-font/eczar-bold-webfont.svg#eczarbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'fengardo';
+    src: url('web-font/fengardoneue_black-webfont.eot');
+    src: url('web-font/fengardoneue_black-webfont.eot?#iefix') format('embedded-opentype'),
+         url('web-font/fengardoneue_black-webfont.woff2') format('woff2'),
+         url('web-font/fengardoneue_black-webfont.woff') format('woff'),
+         url('web-font/fengardoneue_black-webfont.ttf') format('truetype'),
+         url('web-font/fengardoneue_black-webfont.svg#fengardo_neueblack') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'gapsans';
+    src: url('web-font/gapsansblack-webfont.eot');
+    src: url('web-font/gapsansblack-webfont.eot?#iefix') format('embedded-opentype'),
+         url('web-font/gapsansblack-webfont.woff2') format('woff2'),
+         url('web-font/gapsansblack-webfont.woff') format('woff'),
+         url('web-font/gapsansblack-webfont.ttf') format('truetype'),
+         url('web-font/gapsansblack-webfont.svg#gap_sansblack') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'lilgrotesk';
+    src: url('web-font/lilgrotesk-regular-webfont.eot');
+    src: url('web-font/lilgrotesk-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('web-font/lilgrotesk-regular-webfont.woff2') format('woff2'),
+         url('web-font/lilgrotesk-regular-webfont.woff') format('woff'),
+         url('web-font/lilgrotesk-regular-webfont.ttf') format('truetype'),
+         url('web-font/lilgrotesk-regular-webfont.svg#lilgroteskregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'manifont';
+    src: url('/web-font/manifontgroteskbold-webfont.eot');
+    src: url('/web-font/manifontgroteskbold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/web-font/manifontgroteskbold-webfont.woff2') format('woff2'),
+         url('/web-font/manifontgroteskbold-webfont.woff') format('woff'),
+         url('/web-font/manifontgroteskbold-webfont.ttf') format('truetype'),
+         url('/web-font/manifontgroteskbold-webfont.svg#manifont_groteskbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'pressuru';
+    src: url('web-font/pressuru-webfont.eot');
+    src: url('web-font/pressuru-webfont.eot?#iefix') format('embedded-opentype'),
+         url('web-font/pressuru-webfont.woff2') format('woff2'),
+         url('web-font/pressuru-webfont.woff') format('woff'),
+         url('web-font/pressuru-webfont.ttf') format('truetype'),
+         url('web-font/pressuru-webfont.svg#pressururegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'savate';
+    src: url('web-font/savate-regular-webfont.eot');
+    src: url('web-font/savate-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('web-font/savate-regular-webfont.woff2') format('woff2'),
+         url('web-font/savate-regular-webfont.woff') format('woff'),
+         url('web-font/savate-regular-webfont.ttf') format('truetype'),
+         url('web-font/savate-regular-webfont.svg#savateregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'sinkin';
+    src: url('web-font/sinkinsans-400regular-webfont.eot');
+    src: url('web-font/sinkinsans-400regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('web-font/sinkinsans-400regular-webfont.woff2') format('woff2'),
+         url('web-font/sinkinsans-400regular-webfont.woff') format('woff'),
+         url('web-font/sinkinsans-400regular-webfont.ttf') format('truetype'),
+         url('web-font/sinkinsans-400regular-webfont.svg#sinkin_sans400_regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+.container{
+  width: 29.7cm;
+  margin:auto;
+}
+
+.container > .justify {
+
+  text-align: center;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size:10px;
+  margin:0 auto;
+  color:#000;
+  padding:0;
+}

@@ -1,19 +1,30 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title></title>
-	<link rel="stylesheet" href="">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Random Typefaces</title>
+  <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
+	<div class= "francais"> Bienvenue sur le générateur d'affiche.
+	<br> Créez facilement votre propre visuel ! 
+	</div>
+	<div class= "anglais"> Welcome on the poster generator.
+    <br> Create easily your own poster! 
+	</div>
+	
 	<!-- Créer le formulaire + je donne une method POST + dans action je lui indique dans quel fichier va s'afficher les données-->
 	<form action="affiches.php" method="POST"enctype="multipart/form-data"> 
 <!-- 		<fieldset></fieldset> -->
 		<!-- Insérer les input du formulaire  -->
 		<ul> 
-			<li> <label for="asso">nom de l'association</label>
+			<div class="asso">
+			<li> <label for="asso">nom</label>
 			<input type="text" name="asso"> </li>
+			</div>
 
 			<li> <label for="titre">titre</label>
 			<input type="text" name="titre"> </li>
