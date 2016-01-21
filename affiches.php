@@ -9,8 +9,8 @@
 <body>
 	<div>
 		<h1><?php echo $_POST['asso']?></h1>
-		<h1><?php echo $_POST['titre1']?></h1>
-		<h1><?php echo $_POST['titre2']?></h1>
+		<h1><?php echo $_POST['titre']?></h1>
+		<h1><?php echo $_POST['soustitre']?></h1>
 		<h1><?php echo $_POST['date']?></h1>
 		<h1><?php echo $_POST['date']?></h1>
 		<h1><?php echo $_POST['adresse']?></h1>
@@ -27,7 +27,7 @@
 	//Début des vérifications de sécurité...
 	if(!in_array($extension, $extensions)) //Si l'extension n'est pas dans le tableau
 	{
-	     $erreur = 'Vous devez uploader un fichier de type png, gif, jpg, jpeg, txt ou doc...';
+	     $erreur = '  ';
 	}
 	if($taille>$taille_maxi)
 	{

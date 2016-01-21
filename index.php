@@ -15,11 +15,11 @@
 			<li> <label for="asso">nom de l'association</label>
 			<input type="text" name="asso"> </li>
 
-			<li> <label for="titre1">titre1</label>
-			<input type="text" name="titre1"> </li>
+			<li> <label for="titre">titre</label>
+			<input type="text" name="titre"> </li>
 
-			<li> <label for="titre2">titre2</label>
-			<input type="text" name="titre2"> </li>
+			<li> <label for="soustitre">sous titre</label>
+			<input type="text" name="soustitre"> </li>
 
 			<li> <label for="date">date</label>
 			<input type="text" name="date"> </li>
