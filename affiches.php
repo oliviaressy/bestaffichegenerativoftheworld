@@ -12,6 +12,7 @@
 		<h1><?php echo $_POST['titre1']?></h1>
 		<h1><?php echo $_POST['titre2']?></h1>
 		<h1><?php echo $_POST['date']?></h1>
+		<h1><?php echo $_POST['date']?></h1>
 		<h1><?php echo $_POST['adresse']?></h1>
 		<p><?php echo $_POST['presentation']?></p>
 

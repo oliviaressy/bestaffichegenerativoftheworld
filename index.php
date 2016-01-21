@@ -21,8 +21,11 @@
 			<li> <label for="titre2">titre2</label>
 			<input type="text" name="titre2"> </li>
 
-			<li> <label for="date">date et heure</label>
+			<li> <label for="date">date</label>
 			<input type="text" name="date"> </li>
+
+			<li> <label for="heure">horaires</label>
+			<input type="text" name="heure"> </li>
 
 			<li> <label for="adresse">adresse</label>
 			<input type="text" name="adresse"> </li>
@@ -30,12 +33,10 @@
        		<br />
        		<textarea name="presentation" id="presentation" rows="5" cols="30">
        		</textarea> </li>
-       		<h5> importez ici votre logo </h5>
 			<li>
 			<!-- On limite le fichier à 2Mo -->
 	     	<input type="hidden" name="MAX_FILE_SIZE" value="2000000">
-	     	Fichier : <input type="file" name="logo">
-	     	<input type="submit" name="envoyer" value="Envoyer le fichier">
+	     	Logo (- de 20mo) : <input type="file" name="logo">
 	 		</li>
 			<!-- cases à cocher catégories -->
 			<p> categories :<br />
