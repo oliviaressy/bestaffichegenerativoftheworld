@@ -4,10 +4,14 @@ function resizeFont(elemToR){
    var parentW = elemToR.offsetWidth;
     
     $(elemToR).find('.row').each(function(n) {
-      var newFontSize = (parentW / this.offsetWidth) * 9.9;
+
+      var newFontSize = (parentW / this.offsetWidth) * 9.9*3;
+
+
+      console.log(parentW,this.offsetWidth,newFontSize);
         
       this.style.fontSize = newFontSize + 'px';
-      this.style.lineHeight = '120%'; //ça vous pouvez changer
+      this.style.lineHeight = '1em'; //ça vous pouvez changer
     });
 }
 
@@ -20,8 +24,10 @@ function randomType(elem){
 }
 
 $(document).ready(function() {
-    $('.justify').each(function() {
-      resizeFont(this);
-      randomType(this);
+    $(window).load(function(){
+      $('.justify').each(function() {
+        randomType(this);
+        resizeFont(this);
+      });
     });
 });

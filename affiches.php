@@ -9,13 +9,14 @@
   	<script src="js/script.js" type="text/javascript"></script>
 </head>
 <body>
+	<div class="container">
 	<div class="aleatoire">
 		<h1 class="justify">
 			<span class="row"><?php echo $_POST['asso']?></span><br>
 			<span class="row"><?php echo $_POST['titre']?></span><br>
 			<span class="row"><?php echo $_POST['soustitre']?></span><br>
 			<span class="row"><?php echo $_POST['date']?></span><br>
-			<span class="row"><?php echo $_POST['date']?></span><br>
+			<span class="row"><?php echo $_POST['heure']?></span><br>
 			<span class="row"><?php echo $_POST['adresse']?></span><br>
 		</h1>
 	</div>
@@ -25,6 +26,7 @@
 		<p><?php echo $_POST['presentation']?></p>
 
 		<!-- pour uploder photos -->
+
 	<?php
 	$dossier = 'uploads/';
 	$fichier = basename($_FILES['logo']['name']);
@@ -50,7 +52,9 @@
 	     $fichier = preg_replace('/([^.a-z0-9]+)/i', '-', $fichier);
 	     if(move_uploaded_file($_FILES['logo']['tmp_name'], $dossier . $fichier)) //Si la fonction renvoie TRUE, c'est que ça a fonctionné...
 	     {?>
-	          <img src="<?php echo $dossier.$fichier?>" >
+	     <div class= "image">
+			 <img src="<?php echo $dossier.$fichier?>" >
+	      </div>
 	     <?php }
 	     else //Sinon (la fonction renvoie FALSE).
 	     {
@@ -62,6 +66,7 @@
 	     echo $erreur;
 	}
 ?>
+	</div>
 	</div>
 </body>
 </html>
