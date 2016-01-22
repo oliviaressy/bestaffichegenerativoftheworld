@@ -334,9 +334,9 @@ textarea{
 }
     
 .container {
-  width: 21cm;
+  width: 20cm;
   margin:auto;
-  height:15cm;
+  height:29cm;
   background: #F00;
 }
 
@@ -349,8 +349,8 @@ textarea{
   max-width:100%;
   max-height:100%;
   margin-left: 30px;
-  text-align: center;
-  vertical-align: middle;
+  text-align: justify;
+
 }
 
 .image {
